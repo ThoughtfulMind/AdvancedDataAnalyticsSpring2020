@@ -1,0 +1,26 @@
+Project 1
+
+For this project, I created a usable general aviation dataset from Kaggle.com. 
+This is a dataset from the Federal Aviation Administration (FAA) Aviation Accident/Incident Database providing 
+details about each aviation accident that has occurred from 1962 to the present. 
+This dataset will be used for Project 2 and Project 3.
+
+Tasks completed: Data cleaning, Adding Latitude and Longitude to each entry, Loading and exploring data, splitting 
+into train and test sets, plotting train set and considering if transformations are necessary.
+
+Project summary: Travelling by air is the fastest means to get from point A to point B. Flight is also a passion 
+for many who are willing to accept the inherent risks. This project explores general aviation accidents that occurred 
+over six decades in the United States. Specifically, I am looking at the accidents and incidents by make and model of the plane
+to see if there is a connection between aircraft manufacturers and injury accidents to help determine safety performance 
+and trends. The severity of injury will be rated by “Fatal” and “Non-Fatal” and a column called "Lethality" was created 
+that indicates Fatal as 1 and Non-Fatal as 0. Additionally, I will look at the weather impact and the time in flight when 
+the accident occurred.  
+
+For project 2: I want to predict if a pilot will survive based on the features in the data like:
+- Plane Make 
+- Weather
+- Time in flight accident occurred
+- Engine type
+
+I left several columns in the data file for the time being and some will be removed and relevant  transformations will be applied.
+
